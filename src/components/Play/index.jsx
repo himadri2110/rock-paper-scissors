@@ -77,6 +77,7 @@ const Play = () => {
 
       setWinner(winner);
     }
+    // eslint-disable-next-line
   }, [currentPlayer?.choice, opponentPlayer?.choice]);
 
   useEffect(() => {
@@ -98,6 +99,7 @@ const Play = () => {
             : players?.player2,
       });
     }
+    // eslint-disable-next-line
   }, [winner?.username]);
 
   return (
